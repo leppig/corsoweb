@@ -1,0 +1,29 @@
+js base, restful, loopbak
+
+ backend - risorse
+ frontend - crud - 
+ serverside applicazIoni
+ problemi: indicizzazione con google  / spider
+
+www.github.com/anonymez
+
+
+DRF = django rest framework
+
+jshint (javascript parser)
+
+rest puro ammette solo risorse, alcune implementazioni anche filtri
+
+function Person(first,	last,	age,	eyecolor)	{
+this.firstName =	first;
+this.lastName =	last;
+this.age =	age;
+this.eyeColor =	eyecolor;
+}
+Person.prototype.sayHello =	function()	{
+console.log("Hello,	I'm	"	+	this.firstName);};
+
+var helloFunction =	person1.sayHello;
+ helloFunction();	//undefined	o	errore in	strict	mode,	oggetto globale
+• helloFunction.call(person1);	//ok	esplicito call
+
