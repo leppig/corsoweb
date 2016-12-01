@@ -49,4 +49,25 @@
 
 
 	  copio js e anche un file nuovo style.css
-	  
+
+
+	  creo index.html 
+
+	   i file statici sono definiti in appunticorso.txt
+	   
+
+
+	   =============================
+
+
+	   Angular
+	    angular - indice e stili dei conti 
+	       MVC 
+
+	       ng-model: attacca una voariable 
+	        binding automatico
+
+
+	        ng-app 
+	        tag-controller 
+	         ng- 
