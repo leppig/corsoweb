@@ -1,0 +1,46 @@
+	package.json: 
+
+
+	 curl -X GET --header "Accept: application/json" "http://0.0.0.0:3000/api/todo/2" -d 'daas'
+
+
+
+	 update delle tabelle non fa l'aggiornamento dei campi dei 
+
+
+	 loopback non serve un xml
+
+
+	 delete:
+	  curl -X DELETE --header "Accept: application/json" "http://0.0.0.0:3000/api/todo/5"
+
+
+
+	  -------------------------------
+
+	  BOOTSTRAP
+
+
+	  .visible-...-*
+	  .hidden-...
+	  .col
+
+
+	  http://getbootstrap.com/getting-started/
+
+	  css, e altro
+
+	  http://getbootstrap.com/css/#grid
+	  Example: Mobile and desktop
+
+	  .col-xs-12 .col-md-8  - quindi se il device è small è 12, altrimenti è 8 
+
+
+
+	  chromium- ha il rendering dei dispositivi
+
+
+
+	  Less un pre-css per bootstrap
+
+	  
