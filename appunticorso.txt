@@ -43,4 +43,10 @@
 
 	  Less un pre-css per bootstrap
 
+
+
+	  creo un file bootstrap.min.css in client/css/
+
+
+	  copio js e anche un file nuovo style.css
 	  

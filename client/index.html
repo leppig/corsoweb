@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <title>Todo-list</title>
+    <link href="/client/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/client/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="row">
+
+<!-- principale -->
+
+	<div class="col-lg-8">
+	<!--riga add todo -->
+
+		<div class="row">
+			<div class="col-lg-12">
+			<!--Add to do-->
+<h3>Inserisci</h3>
+<form>
+
+  <div class="form-group">
+    <label for="name">nome to do </label>
+    <input type="text" class="form-control" id="name" placeholder="todo name">
+  </div>
+
+  <div class="form-group">
+    <label for="description">Descrizione</label>
+    <input type="text" class="form-control" id="description" placeholder="descrizione">
+  </div>
+  
+
+
+<div class="radio">
+  <label>
+    <input type="radio" name="importante"  value="true" checked>
+    Importante
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="importante" value="false" >
+    Non importante
+  </label>
+</div>
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+			</div>		
+		</div>
+
+
+		<div class="row">
+			<div class="col-lg-12">
+
+      <table class="table table-striped">
+<tr><th>nome</th><th>Descrizione</th><th>importante</th><th>operazione</th></tr>
+
+<tr>
+
+<td>todo1</td>
+<td>desc1</td>
+<td>false</td>
+
+<td>  
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn-xs btn btn-success">Fatto</button>
+  
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn-xs btn btn-danger">Elimina</button>
+</td>
+
+</tr>
+<tr><td>todo2</td>
+<td>desc2</td>
+<td>false/true</td>
+<td>
+  
+<button type="button" class="btn-xs btn btn-success">Fatto</button>
+  
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn-xs btn btn-danger">Elimina</button>
+</td>
+</td>
+</tr>
+
+<tr>
+
+<td>todo1</td>
+<td>desc1</td>
+<td>false</td>
+
+<td>  
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn-xs btn btn-success">Fatto</button>
+  
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn-xs btn btn-danger">Elimina</button>
+</td>
+
+</tr>
+<tr><td>todo3</td>
+<td>desc3</td>
+<td>false/true</td>
+<td>
+  
+<button type="button" class="btn-xs btn btn-success">Fatto</button>
+  
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn-xs btn btn-danger">Elimina</button>
+</td>
+</td>
+</tr>
+
+
+
+</table>
+
+			</div>
+		</div>
+
+	</div>
+<!-- riga to do fatt -->
+	<div class="col-lg-4">
+		
+			list done todo
+				
+	</div>
+	
+</div>
+
+
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ <script src="/client/js/bootstrap.min.js"></script>
+  </body>
+</body>
+</html>
