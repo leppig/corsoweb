@@ -96,6 +96,7 @@
 {{newTodo.name}}
 <hr>
 {{newTodo.desc}}
+
 <hr>
 {{newTodo.important}}
 
@@ -120,8 +121,8 @@
             <td>TODO1</td>
             <td>Descrizion1</td>
             <td>True/False</td>
-            <td><button type="button" class="btn btn-success btn-xs">fatto</button>
-            <button type="button" class="btn btn-danger btn-xs">cancella</button>
+            <td><button ng-click="eseguitodo(id)" type="button" class="btn btn-success btn-xs">fatto</button>
+            <button type="button" ng-click="cancellatodo(id)" class="btn btn-danger btn-xs">cancella</button>
             </td>
           </tr>
 
